@@ -10,9 +10,5 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
-  collector = []
-  groceries.each do |key, value|
-    collector << value
-  end
-  return collector
+  return groceries.values
 end
